@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR코드 생성</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="root">
+        <div class="top-container">
+            <div class="row1">
+                <img id="qr-code">
+            </div>
+            <div class="row2">
+                <textarea id="userText" placeholder="변환할거 입력하셈"></textarea>
+                <h4 id="QRGenBtn">QR코드 생성</h4><br>
+                <span id="ECCBtn">에러 수정 정도
+                    <span id="ECCMenuBtn">></span>
+                </span>
+            </div>
+            <div class="row3">
+                <div id="dropDownMenu">
+                    <div id="lECC" class="selectECC">L (7%)</div>
+                    <div id="mECC" class="selectECC">M (14%)</div>
+                    <div id="qECC" class="selectECC">Q (25%)</div>
+                    <div id="hECC" class="selectECC">H (30%)</div>
+                </div>
+                <p id="QRprop"></p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

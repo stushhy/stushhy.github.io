@@ -1,0 +1,58 @@
+div{
+    box-sizing: border-box;
+  
+}
+#root{
+    margin: 0;
+    height: 100vh;
+}
+.top-container{
+    text-align: center;
+
+}
+.row2{
+    align-items: center;
+    justify-content: center;
+}
+#userText{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+}
+#QRGenBtn{
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 150px;
+    display: inline-block
+    
+}
+#QRGenBtn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+#ECCBtn{
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 150px;
+    display: inline-block;
+}
+#ECCMenuBtn{
+    margin: 5px;
+    padding: 3px;
+}
+#ECCBtn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+#dropDownMenu{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 160px;
+    display: none;
+}
+.selectECC:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}

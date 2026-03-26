@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wonjun's Main Page</title>
     <link rel="stylesheet", href="./style.css">
-    <script src="./script.js"></script>
 </head>
 <body>
-    <a href="./hanggyoan/index.html" target="_blank">항교안</a>
+    <div id="root">
+        <header>
+            <h1>웹개발 연습</h1>
+        </header>
+        <div class="container">
+            <a id='qr-code' href="qr-code/index.html">QR코드 생성</a>
+            <a id='digital-circuit-lab' href="./digital-circuit-lab/index.html">디지털 회로 실험실</a>
+            <a id="javascript-learning" href="./javascript-learning/index.html">자바스크립트 노트</a> 
+        </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
